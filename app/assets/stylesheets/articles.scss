@@ -1,0 +1,32 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+  .main-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(231,231,231);
+    background-color: rgb(248,248,248);
+    color: rgb(143,143,139);
+    height: 40px;
+    padding: 0 20px;
+  }
+  .articles {
+    margin: 20px 0;
+    li {
+      list-style: none;
+    }
+    .article-title {
+      font-size: 24px;
+    }
+  }
